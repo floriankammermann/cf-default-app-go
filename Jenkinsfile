@@ -1,5 +1,5 @@
 pipeline {
-    agent {label 'cfcli'}
+    agent {label 'master'}
 
     stages {
         stage('Deploy') {
